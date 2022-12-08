@@ -1,0 +1,7 @@
+<div
+        [style.width]="width">
+    <span *ngFor="let i of starSequence" [class]="getStarRating(i)"
+     [style.color]="getStarColor()"
+    >
+    </span>
+</div>
